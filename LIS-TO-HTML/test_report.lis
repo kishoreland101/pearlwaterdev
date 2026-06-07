@@ -1,0 +1,18 @@
+
+REPORT  : TZRTEST         Universal University             PAGE :     1
+USER    : ADMIN           Student Report Test              DATE : 01-JAN-2024
+DATABASE: BANNER          Test Environment                 TIME : 10:15:32 AM
+
+
+STUDENT_ID    NAME              GRADE  SCORE
+-----------   ----------------  -----  -----
+STU001        John Smith        A      95
+STU002        Jane Doe          A      92
+STU003        Bob Johnson       B      87
+STU004        Alice Brown       B      85
+STU005        Charlie Wilson    C      76
+STU006        Diana Martinez    A      98
+STU007        Edward Lee        B      88
+STU008        Fiona Garcia      A      93
+STU009        George Taylor     C      78
+STU010        Helen Anderson    B      84

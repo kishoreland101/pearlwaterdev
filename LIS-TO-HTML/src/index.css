@@ -1,0 +1,33 @@
+:root {
+  --gw-blue:        #003A5D;
+  --gw-gold:        #FFBE00;
+  --gw-gold-dark:   #E6A800;
+  --gw-light-blue:  #0054A4;
+  --gw-bg:          #f4f6f8;
+  --gw-white:       #ffffff;
+  --gw-border:      #d1d9e0;
+  --gw-text:        #1a2733;
+  --gw-text-muted:  #5a6a7a;
+  --gw-header-bg:   #003A5D;
+  --gw-row-alt:     #eef2f7;
+  --gw-red:         #c0392b;
+  --gw-green:       #27ae60;
+  --gw-col-header:  #1a4f7a;
+  --font-display:   'Merriweather', Georgia, serif;
+  --font-body:      'Source Sans 3', 'Segoe UI', sans-serif;
+  --shadow-sm:      0 1px 3px rgba(0,0,0,0.12);
+  --shadow-md:      0 4px 12px rgba(0,0,0,0.15);
+  --radius:         4px;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: var(--font-body);
+  background: var(--gw-bg);
+  color: var(--gw-text);
+  font-size: 14px;
+  line-height: 1.5;
+}
+button { cursor: pointer; font-family: var(--font-body); }
+input  { font-family: var(--font-body); }

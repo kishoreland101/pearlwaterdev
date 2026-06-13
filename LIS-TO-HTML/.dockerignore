@@ -1,0 +1,26 @@
+# Dependencies - always reinstalled via npm ci in Docker
+node_modules/
+
+# Build output - rebuilt inside Docker
+dist/
+
+# Git metadata
+.git/
+.gitignore
+
+# Development / test files
+*.log
+*.tmp
+test/
+coverage/
+.nyc_output/
+
+# Environment files
+.env
+.env.*
+
+# IDE / OS metadata
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

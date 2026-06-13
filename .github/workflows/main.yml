@@ -14,7 +14,6 @@ env:
   IMAGE_NAME: lis-report-generator
   IMAGE_TAG: ${{ github.sha }}
 
-
 jobs:
   build-and-push:
     runs-on: ubuntu-latest
@@ -37,7 +36,8 @@ jobs:
       - name: Build and push Docker image
         uses: docker/build-push-action@v5
         with:
-          context: .
+          context: ./LIS-TO-HTML
+          file: ./LIS-TO-HTML/Dockerfile
           push: true
           tags: |
             ${{ env.REGISTRY_LOGIN_SERVER }}/${{ env.IMAGE_NAME }}:${{ env.IMAGE_TAG }}

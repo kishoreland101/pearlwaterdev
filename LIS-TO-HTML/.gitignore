@@ -39,8 +39,6 @@ coverage/
 *.log
 temp_*.js
 
-# Docker
-.dockerignore
 
 # Python
 __pycache__/

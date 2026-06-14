@@ -266,7 +266,7 @@ export default function App() {
               <div className="result-btns">
                 {result.reportHtml && (
                   <a className="btn btn-blue result-btn"
-                    href="http://localhost:3002/report" target="_blank" rel="noreferrer">
+                    href="/report" target="_blank" rel="noreferrer">
                     📊 Open HTML Report
                   </a>
                 )}
@@ -277,15 +277,15 @@ export default function App() {
                 )}
                 {result.logicHtml && (
                   <a className="btn btn-purple result-btn"
-                    href="http://localhost:3002/logic" target="_blank" rel="noreferrer">
+                    href="/logic" target="_blank" rel="noreferrer">
                     🔧 View File Info Page
                   </a>
                 )}
               </div>
               <div className="result-note">
                 Report also available at{' '}
-                <a href="http://localhost:3002/report" target="_blank" rel="noreferrer">
-                  http://localhost:3002/report
+                <a href="/report" target="_blank" rel="noreferrer">
+                  /report
                 </a>
               </div>
             </div>
